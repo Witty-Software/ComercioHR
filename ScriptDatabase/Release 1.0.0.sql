@@ -1,0 +1,7 @@
+CREATE OR ALTER PROCEDURE [dbo].[ObtSuc]
+AS
+BEGIN
+    SELECT A.Code AS Sucursal
+    FROM [Retail One].dbo.[@SO1_01SUCURSAL] A;
+END
+GO
